@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  background-color: #f7fcf0;
+  line-height: 1.6;
+  font-family: "Poppins", sans-serif;
+}
+
+.app-container {
+  padding: 2%;
+}
+
+.title {
+  color: #fc4a1a;
+  font-size: 2.6em;
+  padding-bottom: 1%;
+  text-shadow: 4px 4px 12px rgba(255, 255, 255, 1);
+}
+
+.main-container {
+  background-color: #4abdac;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 26px;
+}
+
+.text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7b733;
+  border-bottom: solid #f7fcf0 8px;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  color: #f7fcf0;
+  font-weight: 900;
+  height:auto;
+  min-height:100px;
+  margin-bottom: 2%;
+  padding: 2%;
+  text-shadow: -2px 2px 0px rgba(0,0,0,0.11);
+}
+
+.animal-image {
+  border: solid #f7fcf0 15px;
+  border-radius: 50%;
+  max-width: 80%;
+}
+
+.animal-image:hover {
+  opacity: 0.8;
+}
+
+
+@media only screen and (min-width: 660px) {
+  .animals-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 2%;
+  }
+}
