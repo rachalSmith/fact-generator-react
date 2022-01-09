@@ -16,6 +16,8 @@ https://rachalsmith.github.io/deployed-react-random-fact-generator/
 
 ### Usage
 
+Manually tested and working with Node version: 16.13.0
+
 #### Install dependencies
 
 ```bash
