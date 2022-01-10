@@ -1,7 +1,7 @@
 import React from 'react';
 
-import AnimalImageContainer from './imageComponent/AnimalImageContainer';
 import TextContainer from './TextContainer';
+import AnimalImageContainer from './AnimalImageContainer'
 import animals  from '../data/animals';
 
 
@@ -34,8 +34,10 @@ class MainContainer extends React.Component {
           />
           <div className="animals-container">
             <AnimalImageContainer
+              data-testid="camel"
               animalImage={ animals.camel.image }
               randomFact={ this.handleClick }
+              test = {"hello"}
             />
             <AnimalImageContainer
               animalImage={ animals.dolphin.image }
