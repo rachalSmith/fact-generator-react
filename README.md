@@ -13,6 +13,8 @@ The facts are typical examples of adaptations that KS4 Science students would be
 
 https://rachalsmith.github.io/deployed-react-random-fact-generator/
 
+### Project Status: Automated unit and intergration testing in progress
+
 
 ### Usage
 
