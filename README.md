@@ -8,17 +8,17 @@ This app gives a random fact about an animal when the animal's image is clicked.
 
 The facts are typical examples of adaptations that KS4 Science students would be expected to know/deduce from an image. 
 
+App is tested using Jest and React Testing Library.  
+
 
 #### App has been deployed and hosted on github.
 
 https://rachalsmith.github.io/deployed-react-random-fact-generator/
 
-### Project Status: Automated unit and intergration testing in progress
-
 
 ### Usage
 
-Manually tested and working with Node version: 16.13.0
+Tested and working with Node version: 16.13.0
 
 #### Install dependencies
 
