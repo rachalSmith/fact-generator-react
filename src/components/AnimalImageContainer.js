@@ -6,11 +6,9 @@ class AnimalImageContainer extends React.Component {
 
   render() {
       return (
-          <div className="animal-container" data-testid="animal-image">
+          <div className="animal-container">
              <div onClick={this.props.randomFact}>
                {this.props.animalImage}
-               {this.props.displayFact}
-               {this.props.test}
               </div>
           </div>
       )

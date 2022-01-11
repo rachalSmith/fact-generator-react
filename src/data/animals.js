@@ -1,9 +1,15 @@
+import camel from '../images/camel.jpg';
+import dolphin from '../images/dolphin.jpg';
+import snowLeopard from '../images/snow-leopard.jpg'
+
+
 const animals = {
   camel: {
     image:
       <img
         className="animal-image"
-        src={require('../images/camel.jpg').default}
+        title="animal-image"
+        src={camel}
         alt="camel"
       />,
     facts: [
@@ -18,13 +24,14 @@ const animals = {
     image:
       <img
         className="animal-image"
-        src={require('../images/dolphin.jpg').default}
+        title="animal-image"
+        src={dolphin}
         alt="dolphin"
       />,
     facts: [
-      'Dolphin\'s sleek, elogated (streamlined) shape allows them to swim through the water with ease.',
+      'Dolphins sleek, elogated (streamlined) shape allows them to swim through the water with ease.',
       'Dolphins have a decreased surface-area to volume ratio to reduce heat loss.',
-      'A dolphin\'s body fat provides insulation against the cold.'
+      'Dolphins body fat provides insulation against the cold.'
     ],
   },
 
@@ -32,7 +39,8 @@ const animals = {
     image:
       <img
         className="animal-image"
-        src={require('../images/snow-leopard.jpg').default}
+        title="animal-image"
+        src={snowLeopard}
         alt="snowLeopard"
       />,
     facts: [

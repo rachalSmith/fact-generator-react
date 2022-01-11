@@ -1,13 +1,11 @@
-import React from "react";
-import { render, fireEvent, cleanup } from "@testing-library/react";
-import "@testing-library/jest-dom/extend-expect";
+import { render, screen } from '@testing-library/react';
 
 import AnimalImageContainer from "../AnimalImageContainer";
+import animals from "../../data/animals"
 
 
-
-it('should render an image as a prop', async () => {
-    render(<AnimalImageContainer test={"hello"}/>)
-    const  imageElement = screen.getByText(/hello/i);
+it('should render an image of a camel as a prop', async () => {
+    render(<AnimalImageContainer animalImage={animals.camel.image}/>)
+    const  imageElement = screen.getByAltText(/camel/i);
     expect(imageElement).toBeVisible()
 })

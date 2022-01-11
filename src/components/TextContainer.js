@@ -8,7 +8,7 @@ class TextContainer extends React.Component {
       return (
           <div className="text-container">
              <div onClick={this.props.randomFact}>
-               <p>{this.props.displayFact}</p>
+               <p data-testid="text">{this.props.displayFact}</p>
               </div>
           </div>
       )
