@@ -1,10 +1,10 @@
 import React from 'react';
 
 import './App.css';
-import TextContainer from './components/TextContainer';
-import AnimalImageContainer from './components/AnimalImageContainer'
+import TextContainer from './components/textContainer/TextContainer';
+import AnimalImageContainer from './components/animalImageContainer/AnimalImageContainer'
 import animals  from './data/animals';
-import Header from './components/Header';
+import Header from './components/header/Header';
 
 
 class App extends React.Component {
@@ -15,8 +15,8 @@ class App extends React.Component {
     };
   }
 
+  // Collects alt of animal and uses alt to get a random fact about that animal.
   handleClick = (e) => {
-    // Collects alt of animal and uses alt to get a random fact about that animal.
     let selectedAnimal = e.target.alt;
     let animalFacts = Object.values(animals[selectedAnimal].facts);
     let randomNumber= Math.floor(Math.random() * animalFacts.length);
